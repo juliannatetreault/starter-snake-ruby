@@ -13,8 +13,8 @@ get '/' do
     apiversion: "1",
     author: "",           # TODO: Your Battlesnake Username
     color: "#EC09EC",     # TODO: Personalize
-    head: "Evil",      # TODO: Personalize
-    tail: "Pixel",      # TODO: Personalize
+    head: "evil",      # TODO: Personalize
+    tail: "pixel",      # TODO: Personalize
   }
 
   camelcase(appearance).to_json
